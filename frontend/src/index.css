@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-page font-sans text-slate-100 antialiased;
+  margin: 0;
+}
+.tabular { font-variant-numeric: tabular-nums; }
+:focus-visible { outline: 2px solid #f2512d; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
